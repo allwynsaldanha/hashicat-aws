@@ -6,7 +6,8 @@
 # prompted to enter it (or define it via config file or command line flags.)
 
 variable "prefix" {
-  description = "This prefix will be included in the name of most resources."
+  description = "The name of of the prefix"
+  default     = "allwyn-saldanha"
 }
 
 variable "region" {
